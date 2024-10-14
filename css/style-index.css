@@ -1,0 +1,55 @@
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: var(--bg-color); /* Gebruikt variabele voor achtergrondkleur */
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.intro .text {
+    flex: 3; /* De tekst krijgt meer ruimte dan de afbeelding */
+}
+
+.intro h1 {
+    font-family: 'Consolas', monospace;
+    font-size: 36px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.intro .image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Afbeelding wordt naar de rechterkant van het scherm geplaatst */
+}
+
+.intro .image img {
+    max-width: 80%; /* Verkleint de afbeelding */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Media query voor kleine schermen */
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro .image {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .intro .image img {
+        max-width: 100%;
+    }
+}

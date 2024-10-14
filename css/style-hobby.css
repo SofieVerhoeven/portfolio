@@ -1,0 +1,23 @@
+h2 {
+    color: #000000;
+    border-bottom: 2px solid #c18e5f;
+    padding-bottom: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+td {
+    vertical-align: top;
+}
+td img {
+    max-width: 75%;
+    display: block;
+    margin: 20px auto;
+}
