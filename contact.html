@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-contact.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Contact</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png" />
+    <link rel="manifest" href="icon/site.webmanifest" />
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.html">Curriculum Vitae</a></li>
+            <li><a href="ervaring.html">Ervaring</a></li>
+            <li><a href="hobby.html">Hobby's & Interesses</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <section class="contact-form">
+        <h1>Contact</h1>
+        <p>Neem gerust contact met mij op via onderstaand formulier.</p>
+        <form>
+            <label for="first-name">Voornaam</label>
+            <input type="text" id="first-name" placeholder="Voornaam">
+
+            <label for="last-name">Achternaam</label>
+            <input type="text" id="last-name" placeholder="Achternaam">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="E-mailadres">
+
+            <label for="subject">Onderwerp</label>
+            <select id="subject">
+                <option>Vraag</option>
+                <option>Opmerking</option>
+                <option>Anders</option>
+            </select>
+
+            <label for="message">Bericht</label>
+            <textarea id="message" placeholder="Typ hier je bericht"></textarea>
+
+            <div class="checkbox">
+                <input type="checkbox" id="subscribe">
+                <label for="subscribe">Verstuur een kopie naar mezelf</label>
+            </div>
+
+            <button type="submit">Verstuur</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
