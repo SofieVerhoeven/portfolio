@@ -9,7 +9,7 @@
 }
 
 .intro .text {
-    flex: 3; /* De tekst krijgt meer ruimte dan de afbeelding */
+    flex: 3; 
 }
 
 .intro h1 {
@@ -28,16 +28,15 @@
 .intro .image {
     flex: 1;
     display: flex;
-    justify-content: flex-end; /* Afbeelding wordt naar de rechterkant van het scherm geplaatst */
+    justify-content: flex-end;
 }
 
 .intro .image img {
-    max-width: 80%; /* Verkleint de afbeelding */
+    max-width: 80%; 
     height: auto;
     border-radius: 10px;
 }
 
-/* Media query voor kleine schermen */
 @media (max-width: 768px) {
     .intro {
         flex-direction: column;

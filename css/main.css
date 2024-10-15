@@ -12,16 +12,15 @@ body {
   color: black;
 }
 
-/* Typografie (koppen, paragraven, etc.) */
+/* Typografie*/
 h1,
 h2 {
-  font-family: 'Consolas', monospace;
+  font-family: "Consolas", monospace;
   color: black;
   font-size: 24px;
   text-align: center;
   margin: 20px 20px;
 }
-
 
 /* Navigatie */
 nav {
@@ -91,7 +90,7 @@ footer {
   text-align: center;
   padding: 15px 0;
   color: black;
-  font-family: 'SF Mono', monospace;
+  font-family: "SF Mono", monospace;
   font-size: 0.9em;
   position: static;
   bottom: 0;
